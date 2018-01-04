@@ -1,3 +1,7 @@
 1. **What happens when you initialize a repository? Why do you need to do it?**
 Initializing a repository creates a .git directory which contains metadata such as branches and past versions of files. The .git
-directory is needed to revert back to previous versions of a repository locally when one does not have internet access. 
+directory is needed to revert back to previous versions of a repository locally when one does not have internet access.
+
+2. **How is the staging area different from the the working directory and the repository? What value do you think it offers?**
+The staging area is the place to prepare files to be committed, while a working directory and repository store the files. It acts as
+the go-between or buffer between the two. 
